@@ -1,0 +1,25 @@
+/* src/components/VideoBackground.css */
+
+.video-background {
+    position: relative;
+  }
+  
+  .video-container {
+    max-width: 1200px; /* Set your maximum content width */
+    margin: 0 auto; /* Center the container horizontally */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    z-index: -1; /* Send the video to the background */
+  }
+  
