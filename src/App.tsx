@@ -9,10 +9,10 @@ import About from "./components/About";
 const App: React.FC = () => {
   return (
     <Router>
-      <VideoBackground/>
+      <VideoBackground />
+      <About/>
       <Routes>
         <Route path="/about" element={<About />} />
-        {/* Add routes for other pages */}
       </Routes>
     </Router>
   );
