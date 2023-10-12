@@ -1,19 +1,17 @@
-// src/components/VideoBackground.tsx
-import React from "react";
-import "./VideoBackground.css";
-import Navbar from "./Navbar";
+import React from 'react';
+import videoBg from '../assets/Animation.mp4';
 
-const VideoBackground: React.FC = () => {
+const Main: React.FC = () => {
   return (
-    <div className="video-background">
-      <video autoPlay loop muted className="video-element">
-        <source src="/Media/Animation.mp4" type="video/mp4" />
-      </video>
-      <div className="carousel-caption d-none d-md-block">
-        <Navbar></Navbar>
+    <div className='main'>
+      <div className="overlay"></div>
+      <video src={videoBg} autoPlay loop muted />
+      <div className="content">
+        <h1>Welcome</h1>
+        <p>To my site.</p>
       </div>
     </div>
   );
-};
+}
 
-export default VideoBackground;
+export default Main;

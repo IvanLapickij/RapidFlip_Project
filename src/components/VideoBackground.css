@@ -19,7 +19,7 @@
   
   .video-container video {
     width: 100%;
-    height: auto;
+    height:min-content;
     z-index: -1; /* Send the video to the background */
   }
   

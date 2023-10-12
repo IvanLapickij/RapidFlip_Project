@@ -9,8 +9,7 @@ import About from "./components/About";
 const App: React.FC = () => {
   return (
     <Router>
-      <Navbar />
-      <VideoBackground />
+      <VideoBackground/>
       <Routes>
         <Route path="/about" element={<About />} />
         {/* Add routes for other pages */}
