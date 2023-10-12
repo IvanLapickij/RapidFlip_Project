@@ -7,7 +7,7 @@ const VideoBackground: React.FC = () => {
   return (
     <div className="video-background">
       <video autoPlay loop muted className="video-element">
-        <source src="src/Media/Animation.mp4" type="video/mp4" />
+        <source src="/Media/Animation.mp4" type="video/mp4" />
       </video>
       <div className="carousel-caption d-none d-md-block">
         <Navbar></Navbar>
