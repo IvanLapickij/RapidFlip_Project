@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const About: React.FC = () => {
   return (
     <div className="container marketing">
-      <h1 id="About">Video Games and Mental Health</h1>
+      <h1 id="About">About</h1>
       {/* START THE FEATURETTES */}
       <hr className="featurette-divider" />
       <Fade delay={1e3} cascade damping={1e-1}>
