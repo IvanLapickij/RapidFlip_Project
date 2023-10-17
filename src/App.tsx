@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import VideoBackground from "./components/VideoBackground";
 import About from "./components/About";
 
-import TeamMembers from "./components/teamMembers";
 import YouTubeVideo from "./components/YoutubeVodeo";
+import TeamMembers from "./components/TeamMembers";
 
 const App: React.FC = () => {
   return (
