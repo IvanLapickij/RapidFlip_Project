@@ -7,6 +7,7 @@ import About from "./components/About";
 
 import YouTubeVideo from "./components/YoutubeVodeo";
 import TeamMembers from "./components/TeamMembers";
+import Contact from "./components/contact";
 
 const App: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const App: React.FC = () => {
         <Route path="/about" element={<About />} />
       </Routes>
       <TeamMembers />
-      
+      <Contact/>
     </Router>
   );
 };
