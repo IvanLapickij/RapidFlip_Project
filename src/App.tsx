@@ -14,11 +14,11 @@ const App: React.FC = () => {
     <Router>
       <VideoBackground />
       <About></About>
-      <YouTubeVideo videoId="iI_-zHxweIs" />
+      {/* <YouTubeVideo videoId="iI_-zHxweIs" /> */}
       <Routes>
         <Route path="/about" element={<About />} />
       </Routes>
-      <TeamMembers />
+      {/* <TeamMembers /> */}
       <Contact/>
     </Router>
   );
