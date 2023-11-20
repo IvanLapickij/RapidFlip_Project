@@ -2,10 +2,14 @@ import React from "react";
 import img1 from "../Media/Images/gaming_boy.jpg";
 import img2 from "../Media/Images/adventure.jpg";
 import img3 from "../Media/Images/vr_girl.jpg";
+import img4 from "../Media/Images/LOGO1.jpg";
 import { Fade } from "react-awesome-reveal";
 const About: React.FC = () => {
   return (
     <div className="container marketing">
+      <div className="d-flex justify-content-center align-items-center">
+        <img src={img4} alt="Image" className="img-fluid" />
+      </div>
       <h1 id="About">About</h1>
       {/* START THE FEATURETTES */}
       <hr className="featurette-divider" />
@@ -34,7 +38,7 @@ const About: React.FC = () => {
         <div className="row featurette">
           <div className="col-md-7 order-md-2">
             <h2 className="featurette-heading fw-normal lh-1">
-              Our Sollution{" "}
+              Our Solution{" "}
               {/* <span className="text-body-secondary">Versitile</span> */}
             </h2>
             <p className="lead">
