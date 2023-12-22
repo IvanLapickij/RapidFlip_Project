@@ -1,0 +1,24 @@
+.featurette {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .featurette {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .featurette-heading {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    margin-bottom: 50px; /* 调整这个值以增加或减少行距 */
+    font-weight: normal;
+    line-height: 1; /* lh-1 */
+    font-weight: bold;
+  }
+
+  .lead.problem {
+    margin-bottom: 30px; 
+    line-height: 1.6;
+  }
